@@ -3,11 +3,13 @@ import "./App.css";
 import MovieCard from "./components/MovieCard"
 function App() { 
 
+  const movieNumber = 1; 
+
   return (
     <>
-    <MovieCard movie={{title: "Sunibha Movie", release_date: "2026"}} />
-    <MovieCard movie={{title: "Nikita Movie", release_date: "2025"}} />
+    {movieNumber === 1 && <MovieCard movie={{title: "Sunibha Movie", release_date: "2026"}} />}
     </>
+
   );
 
   

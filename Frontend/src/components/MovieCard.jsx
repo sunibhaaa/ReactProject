@@ -18,6 +18,8 @@
             <p>{movie.release_date}</p>
         </div>
     </div>
+
+    
     
     
  }
